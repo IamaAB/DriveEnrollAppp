@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">DriveEnrollAppp</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_pssword">Enter Pssword</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="home_activity">Home Activity</string>
+    <string name="loginfailed">\" Log in  Failed\"</string>
+    <string name="succesfully_login">Succesfully Logged in</string>
+    <string name="welcome_admin">Welcome Admin</string>
+    <string name="home">Home</string>
+    <string name="add_member">Add Member</string>
+    <string name="pending_fees">Pending Fees</string>
+    <string name="setting">Setting</string>
+    <string name="cost_setting">Cost Setting</string>
+    <string name="add_update_fee">Add/Update Fee</string>
+    <string name="change_paaword">Change Password Mobile</string>
+    <string name="log_out">Log Out</string>
+<string-array name="membership">
+    <item>Select</item>
+    <item>2 month</item>
+    <item>4 month</item>
+    <item>8 month</item>
+    <item>12 month</item>
+    <item>14 month</item>
+</string-array>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_member">All Member</string>
+    <string name="change_password">Change Password</string>
+    <string name="user_name">User Name</string>
+    <string name="first_name">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="gender">Gender :</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="mobile">Mobile</string>
+    <string name="date_of_joining">Date of Joining</string>
+    <string name="membership">Membership:</string>
+    <string name="weight">Weight</string>
+    <string name="expire_on">Expire On: </string>
+    <string name="discount">Discount(%)</string>
+    <string name="_0_00">0.00</string>
+    <string name="total">"Total "</string>
+    <string name="save">Save</string>
+    <string name="drive_enroll_membership_price">Drive Enroll Membership Price</string>
+    <string name="two_week_fee">Two Weeks:</string>
+    <string name="four_week_fee">4 Weeks:</string>
+    <string name="_14_weeks">14 Weeks:</string>
+    <string name="_12_weeks">12 Weeks:</string>
+    <string name="_8_weeks">8 Weeks:</string>
+    <string name="zer0">0.00</string>
+    <string name="new_password">Enter Your New Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="change_or_register_mobile_number">Change Register Mobile Number</string>
+    <string name="or">OR</string>
+    <string name="enter_new_mobile_number">Enter New Mobile Number</string>
+    <string name="enter_new_mobile_numbers">Enter New Mobile Number</string>
+    <string name="new_number">New Number</string>
+    <string name="_0000000000">0000000000</string>
+    <string name="old_number">Old Number</string>
+    <string name="fee_pendind_details">Fee Pendind Details</string>
+    <string name="Details">Details</string>
+    <string name="student_1">Student 1</string>
+    <string name="student_2">Student 2</string>
+    <string name="student_3">Student 3</string>
+    <string name="student_4">Student 4</string>
+    <string name="student_5">Student 5</string>
+    <string name="student_6">Student 6</string>
+    <string name="student_7">Student 7</string>
+    <string name="click_to_know_details">Click to know Details</string>
+    <string name="click_here">Click here</string>
+    <string name="active_member">Active Member</string>
+    <string name="inactive_member">InActive Member</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="car_no">Car No </string>
+    <string name="weight_8555">Car No : 8555</string>
+    <string name="enter_registered_mobile_no">Enter Registered Mobile no</string>
+    <string name="submit">Submit</string>
+    <string name="active">Active</string>
+    <string name="search">Search</string>
+    <string name="renewal">Renewal</string>
+    <string name="membership_renewal">MemberShip Renewal</string>
+</resources>

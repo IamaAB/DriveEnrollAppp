@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    tools:context=".FragmentAllMember">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/layoutStatus"
+    android:layout_marginTop="5dp"
+    android:gravity="center">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rdGroupMember"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+<RadioButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rdActiveMember"
+    android:checked="true"
+    android:text="@string/active_member"
+    android:textSize="15sp"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdInactiveMember"
+
+            android:text="@string/inactive_member"
+            android:textSize="15sp"/>
+
+    </RadioGroup>
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_below="@+id/layoutStatus"
+        android:layout_marginTop="4dp"
+        android:id="@+id/view"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/edtAllMemberSearch"
+        android:textSize="16sp"
+        android:layout_below="@+id/view"
+        android:textColor="@color/black"
+        android:hint="@string/search"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerViewMember"
+        android:layout_below="@+id/edtAllMemberSearch"
+        android:layout_margin="5dp"
+        android:clipToPadding="false"
+        android:visibility="gone"
+        android:paddingBottom="60dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/edtAllMemberSearch"
+        android:id="@+id/txtAllMemberNDF"
+        android:textSize="16sp"
+        android:text="@string/no_data_found"
+android:gravity="center"
+        android:textColor="@color/red"/>
+
+    <ImageView
+        android:id="@+id/imgAddMember"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/ic_add_member" />
+
+
+
+</RelativeLayout>

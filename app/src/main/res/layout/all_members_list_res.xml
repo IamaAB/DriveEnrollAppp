@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/layoutMembersList"
+android:background="@drawable/list_selector_common"
+android:layout_margin="5dp"
+android:layout_marginBottom="8dp">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgAdapterPic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205"
+        app:srcCompat="@drawable/boy" />
+
+    <LinearLayout
+    android:layout_width="0dp"
+    android:id="@+id/imgAdapterLinear"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toEndOf="@+id/imgAdapterPic"
+    app:layout_constraintTop_toTopOf="parent"
+
+    tools:ignore="MissingConstraints">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="John Cena"
+        android:id="@+id/txtAdapterName"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtAdapterAge"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Age : 35"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtAdapterWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/weight_8555"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:id="@+id/txtAdapterMobile"
+        android:text="Mobile : 129098555"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:id="@+id/txtExpiry"
+        android:text="Expiry : 18/04/2023"
+        android:textColor="@color/black"
+        android:layout_margin="5dp"
+        android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="0.5"
+            android:text="Address: Flat No-5 JohnCena Building NewYork orgentina "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--    app:shapeAppearanceOverlay="@style/roundedIma"-->
